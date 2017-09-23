@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
-import { SearchBar } from 'react-native-elements';
+//import { SearchBar } from 'react-native-elements';
 //import { Drawer } from 'react-native-drawer';
 
 export default class App extends React.Component {
@@ -35,11 +35,7 @@ someMethod() {
     return (
       <View style={styles.container}>
         
-        <SearchBar
-         round
-         //onChangeText={someMethod}
-         placeholder='Type Here...' />
-
+   
         <Image source={picAd} style={{width: 370, height: 100}}/>
         <Text style={styles.header}>HOTTEST TVS</Text>
         
